@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="Scripts/Chat.js"></script>
+</head>
+<body>
+    <div id="connectDiv">
+        <a>请输入昵称：</a> <input type="text" id="nickName" /> <button type="button" onclick="doConnect();">连接</button>
+    </div>
+    <div id="messageInputDiv" style="visibility:hidden">
+        <a>请输入消息：</a> <input type="text" id="message"/> <button type="button" onclick="doSend();">发送</button> <button type="button" onclick="doClose();">断开连接</button>
+    </div>
+    <div id="outputDiv" style="margin-top:20px">
+        
+    </div>
+</body>
+</html>

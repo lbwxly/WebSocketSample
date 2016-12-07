@@ -1,0 +1,118 @@
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\ApplicationInsights.config
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\csc.exe
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\System.Collections.Immutable.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\vbc.exe
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\VBCSCompiler.exe
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\roslyn\VBCSCompiler.exe.config
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\WebSocketSample.dll.config
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\WebSocketSample.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\WebSocketSample.pdb
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Antlr3.Runtime.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.Web.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.WindowsServer.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.ApplicationInsights.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.Web.Infrastructure.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Newtonsoft.Json.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Net.Http.Formatting.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Helpers.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.WebHost.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Mvc.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Optimization.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Razor.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Deployment.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Razor.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\WebGrease.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.Web.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.WindowsServer.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.ApplicationInsights.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Newtonsoft.Json.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Net.Http.Formatting.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Helpers.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.WebHost.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Mvc.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Optimization.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Razor.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Deployment.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Razor.xml
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\bin\Antlr3.Runtime.pdb
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\obj\Debug\WebSocketSample.csprojResolveAssemblyReference.cache
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\obj\Debug\WebSocketSample.dll
+c:\users\jensen\documents\visual studio 2015\Projects\WebSocketSample\WebSocketSample\obj\Debug\WebSocketSample.pdb
+D:\Projects\WebSocketSample\WebSocketSample\bin\ApplicationInsights.config
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\csc.exe
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\vbc.exe
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\VBCSCompiler.exe
+D:\Projects\WebSocketSample\WebSocketSample\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\WebSocketSample\WebSocketSample\bin\WebSocketSample.dll.config
+D:\Projects\WebSocketSample\WebSocketSample\bin\WebSocketSample.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\WebSocketSample.pdb
+D:\Projects\WebSocketSample\WebSocketSample\bin\Antlr3.Runtime.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.DependencyCollector.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.Web.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.WindowsServer.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.ApplicationInsights.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Newtonsoft.Json.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Net.Http.Formatting.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Helpers.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.WebHost.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Mvc.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Optimization.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Razor.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Razor.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\WebGrease.dll
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.DependencyCollector.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.Web.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.AI.WindowsServer.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.ApplicationInsights.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\Newtonsoft.Json.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Net.Http.Formatting.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Helpers.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Http.WebHost.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Mvc.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Optimization.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.Razor.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\System.Web.WebPages.Razor.xml
+D:\Projects\WebSocketSample\WebSocketSample\bin\Antlr3.Runtime.pdb
+D:\Projects\WebSocketSample\WebSocketSample\obj\Debug\WebSocketSample.csprojResolveAssemblyReference.cache
+D:\Projects\WebSocketSample\WebSocketSample\obj\Debug\WebSocketSample.dll
+D:\Projects\WebSocketSample\WebSocketSample\obj\Debug\WebSocketSample.pdb
