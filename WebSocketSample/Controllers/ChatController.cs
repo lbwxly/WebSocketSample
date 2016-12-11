@@ -1,60 +1,64 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Net;
 using System.Net.Http;
-using System.Net.WebSockets;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using System.Web.WebSockets;
+using BCL.WebSockets;
 
 namespace WebSocketSample.Controllers
 {
     [RoutePrefix("api/chat")]
     public class ChatController : ApiController
     {
-        private static List<WebSocket> _sockets = new List<WebSocket>();
+        private static Dictionary<string, WebSocketHandler> _handlers = new Dictionary<string, WebSocketHandler>();
 
         [Route]
         [HttpGet]
-        public HttpResponseMessage Connect(string nickName)
+        public async Task<HttpResponseMessage> Connect(string nickName)
         {
-            HttpContext.Current.AcceptWebSocketRequest(ProcessRequest);
+            if (string.IsNullOrEmpty(nickName))
+            {
+                throw new HttpResponseException(HttpStatusCode.BadRequest);
+            }
+
+            var webSocketHandler = new WebSocketHandler();
+            if (_handlers.ContainsKey(nickName))
+            {
+                var origHandler = _handlers[nickName];
+                await origHandler.Close();
+            }
+
+            _handlers[nickName] = webSocketHandler;
+
+            webSocketHandler.TextMessageReceived += ((sendor, msg) =>
+            {
+                BroadcastMessage(nickName, nickName + "Says: " + msg);
+            });
+
+            webSocketHandler.Closed += (sendor, arg) =>
+            {
+                BroadcastMessage(nickName, nickName + " Disconnected!");
+                _handlers.Remove(nickName);
+            };
+
+            webSocketHandler.Opened += (sendor, arg) =>
+                        {
+                            BroadcastMessage(nickName, nickName + " Connected!");
+                        };
+
+            HttpContext.Current.AcceptWebSocketRequest(webSocketHandler);
 
             return Request.CreateResponse(HttpStatusCode.SwitchingProtocols);
         }
 
-        public async Task ProcessRequest(AspNetWebSocketContext context)
+        private void BroadcastMessage(string sendorNickName, string message)
         {
-            var socket = context.WebSocket;
-            _sockets.Add(socket);
-
-            while (true)
+            foreach (var handlerKvp in ChatController._handlers)
             {
-                var buffer = new ArraySegment<byte>(new byte[1024]);
-                var receivedResult = await socket.ReceiveAsync(buffer, CancellationToken.None);
-                if (receivedResult.MessageType == WebSocketMessageType.Close)
+                if (handlerKvp.Key != sendorNickName)
                 {
-                    await socket.CloseAsync(WebSocketCloseStatus.Empty, string.Empty, CancellationToken.None);
-                    _sockets.Remove(socket);
-                    break;
-                }
-
-                if (socket.State == System.Net.WebSockets.WebSocketState.Open)
-                {
-                    string recvMsg = Encoding.UTF8.GetString(buffer.Array, 0, receivedResult.Count);
-                    var recvBytes = Encoding.UTF8.GetBytes(recvMsg);
-                    var sendBuffer = new ArraySegment<byte>(recvBytes);
-                    foreach (var innerSocket in _sockets)
-                    {
-                        if (innerSocket != socket)
-                        {
-                            await innerSocket.SendAsync(sendBuffer, WebSocketMessageType.Text, true, CancellationToken.None);
-                        }
-                    }
+                    handlerKvp.Value.SendMessage(message).Wait();
                 }
             }
         }

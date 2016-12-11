@@ -7,7 +7,7 @@ function doConnect() {
     var messageDiv = document.getElementById("messageInputDiv");
     self.webSocket = new WebSocket("ws://localhost/api/chat?nickName=" + nickName.value);
     self.webSocket.onopen = function () {
-        appendHistory("connected");
+        appendHistory("Connected!");
         connectDiv.style.visibility = "hidden";
         messageDiv.style.visibility = "visible";
     }
@@ -16,11 +16,11 @@ function doConnect() {
     }
 
     self.webSocket.onmessage = function (event) {
-        appendHistory("received message: " + event.data);
+        appendHistory(event.data);
     }
 
     self.webSocket.onclose = function () {
-        console.log("closed");
+        appendHistory("Disconnected!");
     }
 }
 
@@ -32,7 +32,6 @@ function doSend() {
 
 function doClose() {
     self.webSocket.close();
-    appendHistory("Disconnected");
 }
 
 function appendHistory(msg) {
