@@ -1,0 +1,10 @@
+D:\Projects\BasicClassLibrary\BasicClassLibrary\bin\Debug\BasicClassLibrary.dll
+D:\Projects\BasicClassLibrary\BasicClassLibrary\bin\Debug\BasicClassLibrary.pdb
+D:\Projects\BasicClassLibrary\BasicClassLibrary\obj\Debug\BasicClassLibrary.csprojResolveAssemblyReference.cache
+D:\Projects\BasicClassLibrary\BasicClassLibrary\obj\Debug\BasicClassLibrary.dll
+D:\Projects\BasicClassLibrary\BasicClassLibrary\obj\Debug\BasicClassLibrary.pdb
+D:\Projects\WebSocketSample\BasicClassLibrary\bin\Debug\BasicClassLibrary.dll
+D:\Projects\WebSocketSample\BasicClassLibrary\bin\Debug\BasicClassLibrary.pdb
+D:\Projects\WebSocketSample\BasicClassLibrary\obj\Debug\BasicClassLibrary.csprojResolveAssemblyReference.cache
+D:\Projects\WebSocketSample\BasicClassLibrary\obj\Debug\BasicClassLibrary.dll
+D:\Projects\WebSocketSample\BasicClassLibrary\obj\Debug\BasicClassLibrary.pdb
